@@ -8,7 +8,18 @@ body {
 .container {
     display: flex;
     justify-content: left;
-    padding-left: 30%;
+    padding-left: 25%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navelement {
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .content {
@@ -19,17 +30,6 @@ body {
 header {
     padding: 2rem;
     margin-right: 20%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 1rem;
 }
 
 .item {
